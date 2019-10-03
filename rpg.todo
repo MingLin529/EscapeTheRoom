@@ -1,8 +1,8 @@
 Tasks:
-    ☐ Create README file
-    ☐ Create changelog
-    ☐ Create main game file
-    ☐ Upload files to GitHub
+    ✔ Create README file @done(2019-10-03 09:11) @project(Tasks)
+    ✔ Create changelog @done(2019-10-03 09:11) @project(Tasks)
+    ✔ Create main game file @done(2019-10-03 09:11) @project(Tasks)
+    ✔ Upload files to GitHub @done(2019-10-03 09:11) @project(Tasks)
 
 Game:
     ☐ Think of a name for the game
