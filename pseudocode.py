@@ -8,21 +8,13 @@
 # The game will only come to an end after few opitions, whether its good or
 # bad opition, just one opition will not leading to an end.
 
-# To have the True Ending, you have to choose the following opitions in order:
-# 1-search for wifi
-# 2-turn off the phone to save battery
-# 3-take the black hair with you
-# 4-lock the door
-# 5-flip through the window to next door
-# 6-(opition does not matter, both works)
-# 7-hide behind the door
-# 8-investigate the vase
-# 9-directly open the lock
-# 10-leave after investigate
+# To pass the game, you have to follow the opitions in order
+
+# Bad Endings:
 
 # End 1-Is it a dream?:
 # 1-search for wifi
-# 2-(both works)
+# 2-(opition does not matter, both works)
 # 3-leave the hair
 # 4-lay back to bed
 
@@ -93,4 +85,64 @@
 # 9-directly open the lock
 # 10-leave after investigate
 
-# End 10-Success
+# End 10-You died(Dog's outside the door, you're found!):
+# 1-search for wifi
+# 2-(both works)
+# 3-(both works)
+# 4-lock the door
+# 5-flip through the window to next door
+# 6-(both works)
+# 7-hide behind the door
+# 8-head straight downstairs
+
+# End 11-You died(The phone is dead!):
+# 1-search for wifi
+# 2-turn on low battery mode to save battery
+# 3-(both works)
+# 4-lock the door
+# 5-flip through the window to next door
+# 6-(both works)
+# 7-hide behind the door
+# 8-investigate the vase
+# 9-go downstairs and lock the door
+# 10-leave directly
+
+# End 12-You died(You are been found in the emergency exit):
+# 1-search for wifi
+# 2-(both works)
+# 3-(both works)
+# 4-lock the door
+# 5-flip through the window to next door
+# 6-(both works)
+# 7-hide behind the door
+# 8-investigate the vase
+# 9-go downstairs and lock the door
+# 10-leave after investigate
+
+# Normal Ending:
+
+# End 13-Successfully escaped but cursed:
+# 1-search for wifi
+# 2-turn off the phone to save battery
+# 3-leave the hair
+# 4-lock the door
+# 5-flip through the window to next door
+# 6-(both works)
+# 7-hide behind the door
+# 8-investigate the vase
+# 9-directly open the lock
+# 10-leave after investigate
+
+# True Ending:
+
+# End 14-Successfully escaped!:
+# 1-search for wifi
+# 2-turn off the phone to save battery
+# 3-take the black hair with you
+# 4-lock the door
+# 5-flip through the window to next door
+# 6-(both works)
+# 7-hide behind the door
+# 8-investigate the vase
+# 9-directly open the lock
+# 10-leave after investigate
