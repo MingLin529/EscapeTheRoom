@@ -73,6 +73,10 @@
 # 6-(both works)
 # 7-jump down the window
 
+# opition 6 is a. flip backwards and b. flip forwards (it's an opition that
+# does not matter, it is only for learning information from the jornal 
+# you found)
+
 # End 9-You died(The phone is dead!):
 # 1-search for wifi
 # 2-turn on low battery mode to save battery
