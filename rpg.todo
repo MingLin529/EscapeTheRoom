@@ -5,5 +5,5 @@ Tasks:
     ✔ Upload files to GitHub @done(2019-10-03 09:11) @project(Tasks)
 
 Game:
-    ☐ Think of a name for the game
-    ☐ Finish pseudocode
+    ✔ Think of a name for the game @done(2019-10-07 08:19) @project(Game)
+    ✔ Finish pseudocode @done(2019-10-07 08:17) @project(Game)
