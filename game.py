@@ -1,3 +1,10 @@
+# Course: CS 30
+# Period: 1
+# Date created: 19/10/03
+# Date last modified:
+# Name: Mingyuan Lin
+# Description: 
+
 # Main game file
 
 # list of what you start with
