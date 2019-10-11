@@ -1,4 +1,13 @@
-# Press E to print out inventory
+# Course: CS 30
+# Period: 1
+# Date created: 19/10/01
+# Date last modified: 19/10/11
+# Name: Mingyuan Lin
+# Description: the outline of the RPG game that is going to be made. Includes
+# every end that is going to come to with the different choose of order and
+# the different opitions that is made
+
+# Press 'E' to print out inventory
 
 # After a plot, given two or more opitions, choose the right way can lead
 # to endings, include good endings, normal endings, and ture
@@ -10,143 +19,368 @@
 
 # To pass the game, you have to follow the opitions in order
 
+# With the given out opitions a and b, choose the one after the number at the
+# top to get to the end you want
+
 # Bad Endings:
 
-# End 1-Is it a dream?:
-# 1-search for wifi
-# 2-(opition does not matter, both works)
-# 3-leave the hair
-# 4-lay back to bed
-
-# End 2-You died(You pretended asleep after you took something? Wake up!):
-# 1-search for wifi
-# 2-(both works)
-# 3-take the black hair with you
-# 4-lay back to bed
-
-# End 3-You died(Sounds too loud!):
+# End 1-You died(Sounds too loud!):
 # 1-watch YouTube
+    # a. search for wifi
+    # b. watch YouTube
+
+
+# End 2-Is it a dream?:
+# 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
+# 2-(opition does not matter, both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
+# 3-leave the hair
+    # a. leave the hair
+    # b. take the black hair with you
+# 4-lay back to bed
+    # a. lay back to bed
+    # b. lock the door
+
+
+# End 3-You died(You pretended asleep after you took something? Wake up!):
+# 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
+# 2-(both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
+# 3-take the black hair with you
+    # a. leave the hair
+    # b. take the black hair with you
+# 4-lay back to bed
+    # a. lay back to bed
+    # b. lock the door
+
 
 # End 4-You died(Found by dog):
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-(both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-jump down the window
-# 6-go left
+    # a. flip through the window to next door
+    # b. jump down the window
+# 6-head left
+    # a. head right
+    # b. head left
+
 
 # End 5-You died(Tripped and dropped your phone. Trapped on boat!):
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-(both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-jump down the window
-# 6-go right
-# 7-find boat
+    # a. flip through the window to next door
+    # b. jump down the window
+# 6-head right
+    # a. head right
+    # b. head left
+# 7-search for boat
+    # a. take out the phone
+    # b. search for boat
+
 
 # End 6-You died(Can you really wait until the police comes?):
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-(both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-jump down the window
-# 6-go right
-# 7-take out phone
+    # a. flip through the window to next door
+    # b. jump down the window
+# 6-head right
+    # a. head right
+    # b. head left
+# 7-take out the phone
+    # a. take out the phone
+    # b. search for boat
 # 8-call 911
+    # a. call 911
+    # b. text message to mom
+
 
 # End 7-You died(Mom phones you. You were found!):
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-(both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-jump down the window
-# 6-go right
-# 7-take out phone
+    # a. flip through the window to next door
+    # b. jump down the window
+# 6-head right
+    # a. head right
+    # b. head left
+# 7-take out the phone
+    # a. take out the phone
+    # b. search for boat
 # 8-text message to mom
+    # a. call 911
+    # b. text message to mom
+
 
 # End 8-You died(You were found by the dog downstairs.):
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-(both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-flip through the window to next door
+    # a. flip through the window to next door
+    # b. jump down the window
 # 6-(both works)
+    # a. flip backwards
+    # b. flip forwards
 # 7-jump down the window
+    # a. jump down the window
+    # b. hide behind the door
 
-# opition 6 is a. flip backwards and b. flip forwards (it's an opition that
-# does not matter, it is only for learning information from the jornal 
-# you found)
+# Opition 6 is an opition that does not matter, it is only for learning
+# informations from the jornal you found
 
-# End 9-You died(The phone is dead!):
+
+# End 9-You died(Dog's outside the door, you're found!):
 # 1-search for wifi
-# 2-turn on low battery mode to save battery
-# 3-(both works)
-# 4-lock the door
-# 5-flip through the window to next door
-# 6-(both works)
-# 7-hide behind the door
-# 8-investigate the vase
-# 9-directly open the lock
-# 10-leave after investigate
-
-# End 10-You died(Dog's outside the door, you're found!):
-# 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-(both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-flip through the window to next door
+    # a. flip through the window to next door
+    # b. jump down the window
 # 6-(both works)
+    # a. flip backwards
+    # b. flip forwards
 # 7-hide behind the door
+    # a. jump down the window
+    # b. hide behind the door
 # 8-head straight downstairs
+    # a. head straight downstairs
+    # b. investigate the vase
+
+
+# End 10-You died(The phone is dead!):
+# 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
+# 2-turn on low battery mode to save battery
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
+# 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
+# 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
+# 5-flip through the window to next door
+    # a. flip through the window to next door
+    # b. jump down the window
+# 6-(both works)
+    # a. flip backwards
+    # b. flip forwards
+# 7-hide behind the door
+    # a. jump down the window
+    # b. hide behind the door
+# 8-investigate the vase
+    # a. head straight downstairs
+    # b. investigate the vase
+# 9-directly open the lock
+    # a. go downstairs and lock the door
+    # b. directly open the lock
+# 10-leave after investigate
+    # a. leave directly
+    # b. leave after investigate
+
 
 # End 11-You died(The phone is dead!):
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-turn on low battery mode to save battery
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-flip through the window to next door
+    # a. flip through the window to next door
+    # b. jump down the window
 # 6-(both works)
+    # a. flip backwards
+    # b. flip forwards
 # 7-hide behind the door
+    # a. jump down the window
+    # b. hide behind the door
 # 8-investigate the vase
+    # a. head straight downstairs
+    # b. investigate the vase
 # 9-go downstairs and lock the door
+    # a. go downstairs and lock the door
+    # b. directly open the lock
 # 10-leave directly
+    # a. leave directly
+    # b. leave after investigate
+
 
 # End 12-You died(You are been found in the emergency exit):
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-(both works)
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-(both works)
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-flip through the window to next door
+    # a. flip through the window to next door
+    # b. jump down the window
 # 6-(both works)
+    # a. flip backwards
+    # b. flip forwards
 # 7-hide behind the door
+    # a. jump down the window
+    # b. hide behind the door
 # 8-investigate the vase
+    # a. head straight downstairs
+    # b. investigate the vase
 # 9-go downstairs and lock the door
+    # a. go downstairs and lock the door
+    # b. directly open the lock
 # 10-leave after investigate
+    # a. leave directly
+    # b. leave after investigate
+
 
 # Normal Ending:
 
 # End 13-Successfully escaped but cursed:
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-turn off the phone to save battery
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-leave the hair
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-flip through the window to next door
+    # a. flip through the window to next door
+    # b. jump down the window
 # 6-(both works)
+    # a. flip backwards
+    # b. flip forwards
 # 7-hide behind the door
+    # a. jump down the window
+    # b. hide behind the door
 # 8-investigate the vase
+    # a. head straight downstairs
+    # b. investigate the vase
 # 9-directly open the lock
+    # a. go downstairs and lock the door
+    # b. directly open the lock
 # 10-leave after investigate
+    # a. leave directly
+    # b. leave after investigate
+
 
 # True Ending:
 
 # End 14-Successfully escaped!:
 # 1-search for wifi
+    # a. search for wifi
+    # b. watch YouTube
 # 2-turn off the phone to save battery
+    # a. turn on low battery mode to save battery
+    # b. turn off the phone to save battery
 # 3-take the black hair with you
+    # a. leave the hair
+    # b. take the black hair with you
 # 4-lock the door
+    # a. lay back to bed
+    # b. lock the door
 # 5-flip through the window to next door
+    # a. flip through the window to next door
+    # b. jump down the window
 # 6-(both works)
+    # a. flip backwards
+    # b. flip forwards
 # 7-hide behind the door
+    # a. jump down the window
+    # b. hide behind the door
 # 8-investigate the vase
+    # a. head straight downstairs
+    # b. investigate the vase
 # 9-directly open the lock
+    # a. go downstairs and lock the door
+    # b. directly open the lock
 # 10-leave after investigate
+    # a. leave directly
+    # b. leave after investigate
+
+# When you comes to an end, you can either press 'R' to return to the very
+# start of the game; or you can choose the number of the opitions you made
+# to go to a specific opition and to choose again
