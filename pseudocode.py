@@ -60,7 +60,7 @@
     # b. lock the door
 
 
-# End 4-You died(Found by dog):
+# End 4-You died(Found by the dog):
 # 1-search for wifi
     # a. search for wifi
     # b. watch YouTube
@@ -76,90 +76,9 @@
 # 5-jump down the window
     # a. flip through the window to next door
     # b. jump down the window
-# 6-head left
-    # a. head right
-    # b. head left
 
 
-# End 5-You died(Tripped and dropped your phone. Trapped on boat!):
-# 1-search for wifi
-    # a. search for wifi
-    # b. watch YouTube
-# 2-(both works)
-    # a. turn on low battery mode to save battery
-    # b. turn off the phone to save battery
-# 3-(both works)
-    # a. leave the hair
-    # b. take the black hair with you
-# 4-lock the door
-    # a. lay back to bed
-    # b. lock the door
-# 5-jump down the window
-    # a. flip through the window to next door
-    # b. jump down the window
-# 6-head right
-    # a. head right
-    # b. head left
-# 7-search for boat
-    # a. take out the phone
-    # b. search for boat
-
-
-# End 6-You died(Can you really wait until the police comes?):
-# 1-search for wifi
-    # a. search for wifi
-    # b. watch YouTube
-# 2-(both works)
-    # a. turn on low battery mode to save battery
-    # b. turn off the phone to save battery
-# 3-(both works)
-    # a. leave the hair
-    # b. take the black hair with you
-# 4-lock the door
-    # a. lay back to bed
-    # b. lock the door
-# 5-jump down the window
-    # a. flip through the window to next door
-    # b. jump down the window
-# 6-head right
-    # a. head right
-    # b. head left
-# 7-take out the phone
-    # a. take out the phone
-    # b. search for boat
-# 8-call 911
-    # a. call 911
-    # b. text message to mom
-
-
-# End 7-You died(Mom phones you. You were found!):
-# 1-search for wifi
-    # a. search for wifi
-    # b. watch YouTube
-# 2-(both works)
-    # a. turn on low battery mode to save battery
-    # b. turn off the phone to save battery
-# 3-(both works)
-    # a. leave the hair
-    # b. take the black hair with you
-# 4-lock the door
-    # a. lay back to bed
-    # b. lock the door
-# 5-jump down the window
-    # a. flip through the window to next door
-    # b. jump down the window
-# 6-head right
-    # a. head right
-    # b. head left
-# 7-take out the phone
-    # a. take out the phone
-    # b. search for boat
-# 8-text message to mom
-    # a. call 911
-    # b. text message to mom
-
-
-# End 8-You died(You were found by the dog downstairs.):
+# End 5-You died(You were found by the dog):
 # 1-search for wifi
     # a. search for wifi
     # b. watch YouTube
@@ -186,7 +105,7 @@
 # informations from the jornal you found
 
 
-# End 9-You died(Dog's outside the door, you're found!):
+# End 6-You died(Dog's outside the door, you're found!):
 # 1-search for wifi
     # a. search for wifi
     # b. watch YouTube
@@ -213,7 +132,7 @@
     # b. investigate the vase
 
 
-# End 10-You died(The phone is dead!):
+# End 7-You died(The phone is dead!):
 # 1-search for wifi
     # a. search for wifi
     # b. watch YouTube
@@ -246,7 +165,7 @@
     # b. leave after investigate
 
 
-# End 11-You died(The phone is dead!):
+# End 8-You died(The phone is dead!):
 # 1-search for wifi
     # a. search for wifi
     # b. watch YouTube
@@ -279,7 +198,7 @@
     # b. leave after investigate
 
 
-# End 12-You died(You are been found in the emergency exit):
+# End 9-You died(You are been found in the emergency exit):
 # 1-search for wifi
     # a. search for wifi
     # b. watch YouTube
@@ -314,7 +233,7 @@
 
 # Normal Ending:
 
-# End 13-Successfully escaped but cursed:
+# End 10-Successfully escaped but cursed:
 # 1-search for wifi
     # a. search for wifi
     # b. watch YouTube
@@ -349,7 +268,7 @@
 
 # True Ending:
 
-# End 14-Successfully escaped!:
+# End 11-Successfully escaped!:
 # 1-search for wifi
     # a. search for wifi
     # b. watch YouTube
