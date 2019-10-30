@@ -22,8 +22,8 @@ for direction in directions:
 
 name = int(input("Enter choice: "))
 if name == 1:
-    print("\nflip through the window to next door")
+    print(f"\n{directions[0]}")
 elif name == 2:
-    print("\njump down the window")
+    print(f"\n{directions[1]}")
 else:
-    print("\nhead straight downstairs")
+    print(f"\n{directions[2]}")
