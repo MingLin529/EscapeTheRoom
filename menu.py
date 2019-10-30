@@ -16,14 +16,14 @@ directions = ['flip through the window to next door',
 
 print("Which direction are you taking? (print out the number)")
 for direction in directions:
-  print(f"{directions.index(direction)+1}. {direction}")
+    print(f"{directions.index(direction)+1}. {direction}")
 
 # print out a specific choice when you entered an input
 
 name = int(input("Enter choice: "))
 if name == 1:
-  print("flip through the window to next door")
+    print("flip through the window to next door")
 elif name == 2:
-  print("jump down the window")
+    print("jump down the window")
 else:
-  print("head straight downstairs")
+    print("head straight downstairs")
