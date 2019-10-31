@@ -22,8 +22,8 @@ for direction in directions:
 
 name = int(input("Enter choice: "))
 if name == 1:
-    print(f"\n{directions[0]}")
+    print(f"\nYou {directions[0]}.")
 elif name == 2:
-    print(f"\n{directions[1]}")
+    print(f"\nYou {directions[1]}.")
 else:
-    print(f"\n{directions[2]}")
+    print(f"\nYou {directions[2]}.")
