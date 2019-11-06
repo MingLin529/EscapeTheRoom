@@ -12,18 +12,25 @@ directions = ['flip through the window to next door',
              'jump down the window',
              'head straight downstairs']
 
-# print out the question and choices
+prompt = "\nEnter a number in front of the directions you want to go: "
+prompt += "\n(Enter 0 when you are stopping.)"
 
-print("Which direction are you taking? (print out the number)")
-for direction in directions:
-    print(f"{directions.index(direction)+1}. {direction}")
 
-# print out a specific choice when you entered an input
+def actions():
+    for direction in directions:
+        print(f"{directions.index(direction)+1}. {direction}")
 
-name = int(input("Enter choice: "))
-if name == 1:
-    print(f"\nYou {directions[0]}.")
-elif name == 2:
-    print(f"\nYou {directions[1]}.")
-else:
-    print(f"\nYou {directions[2]}.")
+
+while True:
+    actions()
+
+    name = int(input(f"{prompt}\n"))
+
+    if name == 0:
+        break
+    elif name == 1:
+        print(f"\nYou {directions[0]}.\n")
+    elif name == 2:
+        print(f"\nYou {directions[1]}.\n")
+    else:
+        print(f"\nYou {directions[2]}.\n")
