@@ -40,4 +40,4 @@ while True:
     elif name == 3:
         print(f"\nYou {directions[2]}.\n")
     else:
-        print("\nThis number is invalid. Please choose another number.\n")
+        print("\nThis number is INVALID. Please choose another number.\n")
