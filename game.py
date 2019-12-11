@@ -46,16 +46,18 @@ def actions():
 
 while True:
     actions()
-
-    name = int(input(f"{prompt}\n"))
-
-    if name == 0:
-        break
-    elif name == 1:
-        print(f"\nYou {directions[0]}.\n")
-    elif name == 2:
-        print(f"\nYou {directions[1]}.\n")
-    elif name == 3:
-        print(f"\nYou {directions[2]}.\n")
+    try:
+        name = int(input(f"{prompt}\n"))
+    except ValueError:
+        print("The input is not a number, please try agian!\n")
     else:
-        print("\nThis number is INVALID. Please choose another number.\n")
+        if name == 0:
+            break
+        elif name == 1:
+            print(f"\nYou {directions[0]}.\n")
+        elif name == 2:
+            print(f"\nYou {directions[1]}.\n")
+        elif name == 3:
+            print(f"\nYou {directions[2]}.\n")
+        else:
+            print("\nThis number is INVALID. Please choose another number.\n")
