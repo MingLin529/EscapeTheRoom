@@ -32,15 +32,33 @@
 
 
 # defining the layout of the house
-house_map = [
-    ['Guest Room (Start)', 'Living Room'],
-    ['Master Room', 'Living Room'],
-    ['Basement', 'Basement']
-]
+#house_map = [
+#    ['Guest Room (Start)', 'Living Room'],
+#    ['Master Room', 'Living Room'],
+#    ['Basement', 'Basement']
+#]
 
 
-def print_map():
-    """print out the map in array"""
-    print("This is the layout of the house you are in: ")
-    for map in house_map:
-        print(map)
+#def print_map():
+#    """print out the map in array"""
+#    print("This is the layout of the house you are in: ")
+#    for map in house_map:
+#        print(map)
+
+
+# adopted code from Ms. Cotcher
+
+class ViewMap:
+    def print_house(self):
+        """prints a visual map"""
+        self.house_printable = """
+        |(you are here)|      |--------------|---------------|
+        |  Guest Room  |       Hidden stairs |    Basement   |
+        |              |      |--------------|               |
+        ---------------- Hall |              |---------------|
+        |              |      |                              |
+        | Master Room  |     stairs       Living Room        |
+        |              |      |                              |
+        ----------------------|------------------------------|
+        """
+        print(self.house_printable)
