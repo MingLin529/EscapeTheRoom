@@ -32,18 +32,18 @@
 
 
 # defining the layout of the house
-#house_map = [
-#    ['Guest Room (Start)', 'Living Room'],
-#    ['Master Room', 'Living Room'],
-#    ['Basement', 'Basement']
-#]
+# house_map = [
+#     ['Guest Room (Start)', 'Living Room'],
+#     ['Master Room', 'Living Room'],
+#     ['Basement', 'Basement']
+# ]
 
 
-#def print_map():
-#    """print out the map in array"""
-#    print("This is the layout of the house you are in: ")
-#    for map in house_map:
-#        print(map)
+# def print_map():
+#     """print out the map in array"""
+#     print("This is the layout of the house you are in: ")
+#     for map in house_map:
+#         print(map)
 
 
 # adopted code from Ms. Cotcher
