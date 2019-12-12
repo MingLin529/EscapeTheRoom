@@ -8,15 +8,16 @@
 # Main game file
 
 # import the module of map, character, and inventory
-import map
+from map import ViewMap
 import character
 import inventory
 
 # print out the module
-map.print_map()
+print("Here is the map of the house: ")
+view_map = ViewMap()
+view_map.print_house()
 
 # a blanc line to separate the two parts
-print("\n")
 
 character.print_character()
 inventory.print_items()
