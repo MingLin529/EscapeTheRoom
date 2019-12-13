@@ -10,7 +10,7 @@
 # import the module of map, character, and inventory
 from map import ViewMap
 import character
-import inventory
+from inventory import Phone
 
 # print out the module
 print("Here is the map of the house: ")
@@ -20,7 +20,13 @@ view_map.print_house()
 # a blanc line to separate the two parts
 
 character.print_character()
-inventory.print_items()
+
+# leave a blanc line to separate the parts
+print("\n")
+
+# print out the item you have
+phone = Phone()
+print(f"You have your {phone} to start with!")
 
 # leave a blanc line to separate the parts
 print("\n")
