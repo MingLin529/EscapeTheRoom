@@ -68,50 +68,57 @@
 
 class ItemHave:
     def __str__(self):
-      return self.name
+        return self.name
+
 
 class Phone(ItemHave):
     def __init__(self):
-      self.name = 'Phone'
-      self.description = 'This is the only item you have when you woke up.'
-      self.condition = 'With only 2% battery and no WIFI signal.'
-      self.usage = 'You can use to contact and watch YouTube if you find WIFI.'
+        self.name = 'Phone'
+        self.description = 'This is the only item you have when you woke up.'
+        self.condition = 'With only 2% battery and no WIFI signal.'
+        self.usage = 'You can use to contact and watch YouTube '
+        'if you find WIFI.'
+
 
 class ToolGain:
     def __str__(self):
-      return self.name
+        return self.name
+
 
 class Crosskey(ToolGain):
     def __init__(self):
-      self.name = 'Cross key'
-      self.description = 'This is a key shaped as a cross.'
-      self.condition = 'Other than the shape, there is nothing special '
-      'about the key.'
-      self.usage = 'It can only open the specific lock.'
+        self.name = 'Cross key'
+        self.description = 'This is a key shaped as a cross.'
+        self.condition = 'Other than the shape, there is nothing special '
+        'about the key.'
+        self.usage = 'It can only open the specific lock.'
+
 
 class Journal(ToolGain):
     def __init__(self):
-      self.name = 'Journal'
-      self.description = 'This is the journal from some else.'
-      self.condition = 'The trace left on the journal showed that '
-      'the owner have written on it everyday.'
-      self.usage = 'Maybe you can learn some information about the situation '
-      'you are involved in.'
+        self.name = 'Journal'
+        self.description = 'This is the journal from some else.'
+        self.condition = 'The trace left on the journal showed that '
+        'the owner have written on it everyday.'
+        self.usage = 'Maybe you can learn some information about the '
+        'situation you are involved in.'
+
 
 class GoldKey(ToolGain):
     def __init__(self):
-      self.name = 'Gold key'
-      self.description = 'This is a gold key.'
-      self.condition = 'It is just a key that is colored in gold, not that '
-      'the material is gold.'
-      self.usage = 'You can use to open a lock, it is not used for you to '
-      'sell it for money.'
+        self.name = 'Gold key'
+        self.description = 'This is a gold key.'
+        self.condition = 'It is just a key that is colored in gold, not that '
+        'the material is gold.'
+        self.usage = 'You can use to open a lock, it is not used for you to '
+        'sell it for money.'
+
 
 class PaperStrip(ToolGain):
     def __init__(self):
-      self.name = 'Paper strip'
-      self.description = 'This is a strip made out of paper.'
-      self.condition = 'It belonged to a notebook, you can easily come up '
-      'with the solution by the rough edge of the strip.'
-      self.usage = 'Some werid notes has written on it, maybe it is the key '
-      'to a mistery or maybe it is just some sketch.'
+        self.name = 'Paper strip'
+        self.description = 'This is a strip made out of paper.'
+        self.condition = 'It belonged to a notebook, you can easily come up '
+        'with the solution by the rough edge of the strip.'
+        self.usage = 'Some werid notes has written on it, maybe it is the key '
+        'to a mistery or maybe it is just some sketch.'
