@@ -22,6 +22,9 @@
 # With the given out opitions a and b, choose the one after the number at the
 # top to get to the end you want
 
+#plot 1
+# You are called John Anderson, and you are a university student. 
+
 # Bad Endings:
 
 # End 1-You died(Sounds too loud!):
