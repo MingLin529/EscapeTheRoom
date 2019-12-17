@@ -24,7 +24,7 @@
 
 # Story adopted from Yunxinghe
 
-# Starting plot: 
+# Starting plot:
 # You are called John Anderson, and you are a university student. You, who was
 # supposed to return home to enjoy the summer vacation, were somehow trapped
 # in this room. When a person wakes up and finds that the surrounding
@@ -39,6 +39,7 @@
     # a. search for wifi
     # b. watch YouTube
 
+# watch YouTube:
 # It is indeed you, what a wise choice! You pulled out your phone, opened the
 # YouTube client, and watched the video you downloaded the previous two days.
 # Since there is no earphone, you can only put it outlaud. Your voice is so
