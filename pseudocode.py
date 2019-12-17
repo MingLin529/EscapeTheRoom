@@ -22,8 +22,15 @@
 # With the given out opitions a and b, choose the one after the number at the
 # top to get to the end you want
 
-#plot 1
-# You are called John Anderson, and you are a university student. 
+# Story adopted from Yunxinghe
+
+# Starting plot: 
+# You are called John Anderson, and you are a university student. You, who was
+# supposed to return home to enjoy the summer vacation, were somehow trapped
+# in this room. When a person wakes up and finds that the surrounding
+# environment is strange, this is a very scary thing. As a senior YouTuber,
+# you have seen animation since childhood and you with rich imagination have
+# decided to face this problem alone. After some thoughts, you decide:
 
 # Bad Endings:
 
@@ -32,6 +39,10 @@
     # a. search for wifi
     # b. watch YouTube
 
+# It is indeed you, what a wise choice! You pulled out your phone, opened the
+# YouTube client, and watched the video you downloaded the previous two days.
+# Since there is no earphone, you can only put it outlaud. Your voice is so
+# noisy that it attracts someone who shouldn't.
 
 # End 2-Is it a dream?:
 # 1-search for wifi
