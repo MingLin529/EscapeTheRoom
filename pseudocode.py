@@ -46,8 +46,8 @@
 # noisy that it attracts someone who shouldn't.
 
 # End 2-Is it a dream?:
-# 1-search for wifi
-    # a. search for wifi
+# 1-search for WiFi
+    # a. search for WiFi
     # b. watch YouTube
 # 2-(opition does not matter, both works)
     # a. turn on low battery mode to save battery
@@ -58,6 +58,36 @@
 # 4-lay back to bed
     # a. lay back to bed
     # b. lock the door
+
+# search for wifi:
+# It is indeed you that you decide to pull out your phone first and search for
+# WiFi here. Unfortunately, there's no WiFi and not even a sign of signals
+# here. Your phone has only 2% of battery left, also there are 83 missed calls.
+# You open the call log. Most of these 83 missed calls are from your mother.
+# The last call was at 8:07 last night. In other words, after 8:07 last night,
+# you entered the no-signal zone. And the person kidnapped you didn't
+# confiscate your phone. As a very important communication tool, mobile phones
+# need to be handled properly. So you decide:
+
+# turn on low battery mode to save battery:
+# It is indeed you! You have decided to turn on your phone in energy-saving
+# mode, so that if your phone enters the signal area, you can receive calls as
+# soon as possible. You put your phone in your pocket.
+
+# turn off the phone to save battery:
+# It is indeed you that you decided to turn off your phone to save power. You
+# are very worried that 2% of your battery will not last long. After you
+# turned off your phone, you put it in your pocket.
+
+# plot that connects after a and b choices of opition 2
+# And pay attention to the pattern on the wall. You have imagined a lot of
+# scenes that will only appear in the game. If it is the same as in the game,
+# then this is a magic circle. Dense and complex text is written at the bottom
+# of the magic circle. On the ground in front of the magic circle, an incense
+# burner and two dishes are placed. White hair and black hair are separately
+# placed on the left and right dishes. After some consideration, you decide:
+
+# leave the hair:
 
 
 # End 3-You died(You pretended asleep after you took something? Wake up!):
