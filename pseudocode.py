@@ -9,13 +9,13 @@
 
 # Press 'E' to print out inventory
 
-# After a plot, given two or more opitions, choose the right way can lead
-# to endings, include good endings, normal endings, and ture
-# endings or leading to another plot with opitions. Choose the wrong way can
-# lead to bad endings which will game over. Some important opitions will
-# effect the endings some does not. Each opition will effect the plot.
-# The game will only come to an end after few opitions, whether its good or
-# bad opition, just one opition will not leading to an end.
+# After a plot, given two or more opitions, choose the right way can lead to
+# endings, include good endings, normal endings, and ture endings or leading
+# to another plot with opitions. Choose the wrong way can lead to bad endings
+# which will game over. Some important opitions will effect the endings some
+# does not. Each opition will effect the plot. The game will only come to an
+# end after few opitions, whether its good or bad opition, just one opition
+# will not leading to an end.
 
 # To pass the game, you have to follow the opitions in order
 
