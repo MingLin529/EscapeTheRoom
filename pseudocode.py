@@ -25,12 +25,12 @@
 # Story adopted from Yunxinghe
 
 # Starting plot:
-# You are called John Anderson, and you are a university student. You, who was
-# supposed to return home to enjoy the summer vacation, were somehow trapped
-# in this room. When a person wakes up and finds that the surrounding
-# environment is strange, this is a very scary thing. As a senior YouTuber,
-# you have seen animation since childhood and you with rich imagination have
-# decided to face this problem alone. After some thoughts, you decide:
+# You are John Anderson, an university student. You, who was supposed to
+# return home to enjoy the summer vacation, were somehow trapped in this room.
+# When a person wakes up and finds that the surrounding environment is
+# strange, this is a very scary thing. As a senior YouTuber, you have seen
+# animation since childhood and you with rich imagination have decided to face
+# this problem alone. After some thoughts, you decide:
 
 # Bad Endings:
 
@@ -79,7 +79,7 @@
 # are very worried that 2% of your battery will not last long. After you
 # turned off your phone, you put it in your pocket.
 
-# plot that connects after a and b choices of opition 2
+# plot that connects after a and b choices of opition 2:
 # And pay attention to the pattern on the wall. You have imagined a lot of
 # scenes that will only appear in the game. If it is the same as in the game,
 # then this is a magic circle. Dense and complex text is written at the bottom
