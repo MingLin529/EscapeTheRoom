@@ -123,6 +123,10 @@
     # b. jump down the window
 
 
+# Opition 3 is an opition that does not matter, it is only for learning
+# informations from the jornal you found
+
+
 # End 5-You died(You were found by the dog):
 # 1-search for wifi
     # a. search for wifi
@@ -145,9 +149,6 @@
 # 7-jump down the window
     # a. jump down the window
     # b. hide behind the door
-
-# Opition 6 is an opition that does not matter, it is only for learning
-# informations from the jornal you found
 
 
 # End 6-You died(Dog's outside the door, you're found!):
