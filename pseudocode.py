@@ -1,7 +1,7 @@
 # Course: CS 30
 # Period: 1
 # Date created: 19/10/01
-# Date last modified: 19/10/11
+# Date last modified: 20/01/07
 # Name: Mingyuan Lin
 # Description: the outline of the RPG game that is going to be made. Includes
 # every end that is going to come to with the different choose of order and
