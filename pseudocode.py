@@ -127,6 +127,8 @@
 # informations from the jornal you found
 
 
+# To be continue
+
 # End 5-You died(You were found by the dog):
 # 1-search for wifi
     # a. search for wifi
