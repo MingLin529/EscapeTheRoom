@@ -128,7 +128,7 @@
     # b. lock the door
 
 # take the black hair with you:
-# It is indeed you, your keen thinking immediately made you judge, this 
+# It is indeed you, your keen thinking immediately made you judge, this
 # black hair must be the key to ruining this array. In this way, no
 # matter what kind of magic this magic array is going to cast, it can
 # be regarded as destroying one of the conditions. You are thinking so.
