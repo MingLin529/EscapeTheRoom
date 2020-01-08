@@ -61,7 +61,7 @@
     # a. lay back to bed
     # b. lock the door
 
-# search for wifi:
+# search for WiFi:
 # It is indeed you that you decide to pull out your phone first and search for
 # WiFi here. Unfortunately, there's no WiFi and not even a sign of signals
 # here. Your phone has only 2% of battery left, also there are 83 missed calls.
