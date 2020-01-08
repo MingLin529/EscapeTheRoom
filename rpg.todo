@@ -9,7 +9,7 @@ Tasks:
 Game:
     ✔ Think of a name for the game @done(2019-10-07 08:19) @project(Game)
     ✔ Finish pseudocode @done(2019-10-07 08:17) @project(Game)
-    ☐ Update pseudocode
+    ✔ Update pseudocode @done(2020-01-08 08:33) @project(Game)
     ☐ Adding plot to the game
     ☐ Adding a start scene
     ☐ Game continues with inputs
