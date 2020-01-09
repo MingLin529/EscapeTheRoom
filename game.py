@@ -8,34 +8,34 @@
 # Main game file
 
 # import the module of map, character, and inventory
-from map import ViewMap
-import character
-from inventory import Phone
+# from map import ViewMap
+# import character
+# from inventory import Phone
 
 # print out the module
-print("Here is the map of the house: ")
-view_map = ViewMap()
-view_map.print_house()
+# print("Here is the map of the house: ")
+# view_map = ViewMap()
+# view_map.print_house()
 
 # a blanc line to separate the two parts
 
-character.print_character()
+# character.print_character()
 
 # leave a blanc line to separate the parts
-print("\n")
+# print("\n")
 
 # print out the item you have
-phone = Phone()
-print(f"You have your {phone} to start with!")
+# phone = Phone()
+# print(f"You have your {phone} to start with!")
 
 # leave a blanc line to separate the parts
-print("\n")
+# print("\n")
 
 # the choice of directions you have
 
-directions = ['flip through the window to next door',
-              'jump down the window',
-              'head straight downstairs']
+# directions = ['flip through the window to next door',
+#              'jump down the window',
+#              'head straight downstairs']
 
 # Instructions to follow
 
