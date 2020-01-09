@@ -13,4 +13,4 @@ Game:
     ☐ Adding plot to the game
     ☐ Adding a start scene
     ☐ Game continues with inputs
-    ☐ Using classes to organize plots
+    ✔ Using classes to organize plots @done(2020-01-09 08:27) @project(Game)
