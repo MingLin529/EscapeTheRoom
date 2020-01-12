@@ -71,7 +71,7 @@ class Transition1(Story):
         "right dishes. After some consideration, you decide: "
 
 
-class lLeaveTheHair(Story):
+class LeaveTheHair(Story):
     def __init__(self):
         self.plots = "It is indeed you, your keen thinking immediately made "
         "you judge. This array faintly reveals an unknown atmosphere, it is "
