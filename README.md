@@ -7,3 +7,10 @@ a Python text-based adventure game
 '''
 python game.py
 '''
+
+## How to play the Game
+
+-Enter 1 to start the Game
+-Follow the plots and choose the choices (Enter 1 or 2)
+-The choice you made will lead to an End
+-Enter 0 to quit the Game
