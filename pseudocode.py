@@ -7,7 +7,6 @@
 # every end that is going to come to with the different choose of order and
 # the different opitions that is made
 
-# Press 'E' to print out inventory
 
 # After a plot, given two or more opitions, choose the right way can lead to
 # endings, include good endings, normal endings, and ture endings or leading
@@ -204,8 +203,3 @@
 
 # flip through the window to next door:
 # to be continued...
-
-
-# When you comes to an end, you can either press 'R' to return to the very
-# start of the game; or you can choose the number of the opitions you made
-# to go to a specific opition and to choose again
