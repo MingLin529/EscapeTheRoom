@@ -8,8 +8,8 @@
 # Main game file
 
 # import the module of map, character and plot
-from map import ViewMap
 import character
+from map import ViewMap
 from plot import StartingPlot
 from plot import WatchYoutube
 from plot import SearchForWiFi
@@ -29,6 +29,9 @@ from plot import JumpDownTheWindow
 
 prompt = "\nEnter a number in front of the directions: "
 prompt += "\n(Enter 0 when you want to quit game.)"
+
+prompt2 = "\nEnter 1 or 2: "
+prompt2 += "\n(Enter 0 to return to start scene.)"
 
 # the choice of directions you have
 directions = ['Start Game',
@@ -91,19 +94,19 @@ def choice():
     """the very last exception handling"""
     while True:
         try:
-            plot5 = int(input(f"{prompt}\n"))
+            plot5 = int(input(f"{prompt2}\n"))
         except ValueError:
             print("The input is not a number, please try agian!\n")
         else:
             if plot5 == 0:
-                break
+                choice6()  # return to start scene
             elif plot5 == 1:
                 print("\nto be continued...")
             elif plot5 == 2:
                 jump = JumpDownTheWindow()
                 print(f"\n{jump}")
-                print("\nEnd 4-You died (Found by the dog)")
-                break
+                print("\nEnd 4-You died (Found by the dog)\n")
+                choice6()  # return to start scene
             else:
                 print("\nThis number is INVALID. Please choose "
                       "another number.\n")
@@ -113,18 +116,18 @@ def choice1():
     """the second last exception handling"""
     while True:
         try:
-            plot4 = int(input(f"{prompt}\n"))
+            plot4 = int(input(f"{prompt2}\n"))
         except ValueError:
             print("The input is not a number, please try agian!\n")
         else:
             if plot4 == 0:
-                break
+                choice6()  # return to start scene
             elif plot4 == 1:
                 lay_2 = LayBackToBed2()
                 print(f"\n{lay_2}")
                 print("\nEnd 3-You died(You pretended asleep after you took "
-                      "something? Wake up!)")
-                break
+                      "something? Wake up!)\n")
+                choice6()  # return to start scene
             elif plot4 == 2:
                 lock_door = LockTheDoor()
                 print(f"\n{lock_door}")
@@ -139,17 +142,17 @@ def choice2():
     """the third last exception handling"""
     while True:
         try:
-            plot3 = int(input(f"{prompt}\n"))
+            plot3 = int(input(f"{prompt2}\n"))
         except ValueError:
             print("The input is not a number, please try agian!\n")
         else:
             if plot3 == 0:
-                break
+                choice6()  # return to start scene
             elif plot3 == 1:
                 lay_1 = LayBackToBed1()
                 print(f"\n{lay_1}")
-                print("\nEnd 2-Is it a dream?")
-                break
+                print("\nEnd 2-Is it a dream?\n")
+                choice6()  # return to start scene
             elif plot3 == 2:
                 lock_door = LockTheDoor()
                 print(f"\n{lock_door}")
@@ -164,12 +167,12 @@ def choice3():
     """the third exception handling"""
     while True:
         try:
-            plot2 = int(input(f"{prompt}\n"))
+            plot2 = int(input(f"{prompt2}\n"))
         except ValueError:
             print("The input is not a number, please try agian!\n")
         else:
             if plot2 == 0:
-                break
+                choice6()  # return to start scene
             elif plot2 == 1:
                 leave_the_hair = LeaveTheHair()
                 print(f"\n{leave_the_hair}")
@@ -193,12 +196,12 @@ def choice4():
     """the second exception handling"""
     while True:
         try:
-            plot = int(input(f"{prompt}\n"))
+            plot = int(input(f"{prompt2}\n"))
         except ValueError:
             print("The input is not a number, please try agian!\n")
         else:
             if plot == 0:
-                break
+                choice6()  # return to start scene
             elif plot == 1:
                 low_battery = TurnOnLowBatteryMode()
                 print(f"\n{low_battery}")
@@ -222,12 +225,12 @@ def choice5():
     """the first exception handling"""
     while True:
         try:
-            start = int(input(f"{prompt}\n"))
+            start = int(input(f"{prompt2}\n"))
         except ValueError:
             print("The input is not a number, please try agian!\n")
         else:
             if start == 0:
-                break
+                choice6()  # return to start scene
             elif start == 1:
                 search_ForWiFi = SearchForWiFi()
                 print(f"\n{search_ForWiFi}")
@@ -236,8 +239,8 @@ def choice5():
             elif start == 2:
                 watch_youtube = WatchYoutube()
                 print(f"\n{watch_youtube}")
-                print("\nEnd 1-You died(Sounds too loud!)")
-                break
+                print("\nEnd 1-You died(Sounds too loud!)\n")
+                choice6()  # return to start scene
             else:
                 print("\nThis number is INVALID. Please choose another "
                       "number.\n")
