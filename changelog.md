@@ -12,3 +12,6 @@
 ## V1.1
 -add on choices
 -bug fix
+
+## V1.2
+-bug fix with the while loops
