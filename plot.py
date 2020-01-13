@@ -110,50 +110,58 @@ class LayBackToBed1(Story):
         you lost your awareness.
         """
 
-        "After waking up, you find that you are lying in the hospital. Was "
-        "everything just a dream? Your mother told you that you were in a "
-        "coma due to anemia. When the police found you, you layed in an "
-        "unnoticeable corner of a station. In short, your body has no big "
-        "deal, but there is a bloody-red mole on your face."
+        """
+        After waking up, you find that you are lying in the hospital. Was
+        everything just a dream? Your mother told you that you were in a coma
+        due to anemia. When the police found you, you layed in an unnoticeable
+        corner of a station. In short, your body has no big deal, but there is
+        a bloody-red mole on your face.
+        """
 
 
 class TakeTheBlackHair(Story):
     def __init__(self):
-        self.plots = "It is indeed you, your keen thinking immediately made "
-        "you judge, this black hair must be the key to ruining this array. "
-        "In this way, no matter what kind of magic this magic array is going "
-        "to cast, it can be regarded as destroying one of the conditions. "
-        "You are thinking so."
+        self.plots = """
+        It is indeed you, your keen thinking immediately made you judge, this
+        black hair must be the key to ruining this array. In this way, no
+        matter what kind of magic this magic array is going to cast, it can be
+        regarded as destroying one of the conditions. You are thinking so.
+        """
 
 
 class LayBackToBed2(Story):
     def __init__(self):
-        self.plots = "It is indeed you, you quickly figured out a way. We "
-        "can pretend to sleep until she leaves, then we will have another "
-        "chance to act. Was she the one who kidnapped me? It was incredible "
-        "that she was a white-haired old woman. Just as then, you suddently "
-        "remembered you have taken the black hair. Then I pretend to sleep..."
+        self.plots = """
+        It is indeed you, you quickly figured out a way. We can pretend to
+        sleep until she leaves, then we will have another chance to act. Was
+        she the one who kidnapped me? It was incredible that she was a
+        white-haired old woman. Just as then, you suddently remembered you have
+        taken the black hair. Then I pretend to sleep...
+        """
 
 
 class LockTheDoor(Story):
     def __init__(self):
-        self.plots = "It is indeed you who came up with such a bold action "
-        "in such a short period of time. Yes, who said you can't lock the "
-        "door of someone else's house. This can delay time as well as delay "
-        "time. The door was locked, but where can I leave without leaving "
-        "through the door? Your eyes moved to the window, and a bold idea "
-        "came into being:"
+        self.plots = """
+        It is indeed you who came up with such a bold action in such a short
+        period of time. Yes, who said you can't lock the door of someone else's
+        house. This can delay time as well as delay time. The door was locked,
+        but where can I leave without leaving through the door? Your eyes moved
+        to the window, and a bold idea came into being:
+        """
 
 
 class JumpDownTheWindow(Story):
     def __init__(self):
-        self.plots = "This is an old-fashioned window, common in the last "
-        "century. Unexpectedly, you start to wonder if you have actually "
-        "been abducted. As wanting to trap me in the house, why not lock the "
-        "windows and door? Anyways, no time to care that much. I have to "
-        "say, it is indeed you! The use of curtains as an elevator, this "
-        "high-end technique, has only been seen on TV before, it is still "
-        "difficult to operate in practice. Fortunately, this bungalow is not "
-        "high, and there are cluttered and soft lawns on the ground. It may "
-        "not be too painful to fall. Just then, a dog howling at you "
-        "fiercely and ran towards you. Before you landed, you are bitten."
+        self.plots = """
+        This is an old-fashioned window, common in the last century.
+        Unexpectedly, you start to wonder if you have actually been abducted.
+        As wanting to trap me in the house, why not lock the windows and door?
+        Anyways, no time to care that much. I have to say, it is indeed you!
+        The use of curtains as an elevator, this high-end technique, has only
+        been seen on TV before, it is still difficult to operate in practice.
+        Fortunately, this bungalow is not high, and there are cluttered and
+        soft lawns on the ground. It may not be too painful to fall. Just then,
+        a dog howling at you fiercely and ran towards you. Before you landed,
+        you are bitten.
+        """
