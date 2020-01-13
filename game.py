@@ -1,46 +1,54 @@
 # Course: CS 30
 # Period: 1
 # Date created: 19/10/03
-# Date last modified:
+# Date last modified: 20/01/12
 # Name: Mingyuan Lin
 # Description:
 
 # Main game file
 
-# import the module of map, character, and inventory
-# from map import ViewMap
-# import character
-# from inventory import Phone
+# import the module of map, character and plot
+from map import ViewMap
+import character
+from plot import StartingPlot
+from plot import WatchYoutube
+from plot import SearchForWiFi
+from plot import TurnOnLowBatteryMode
+from plot import TurnOffThePhone
+from plot import Transition1
+from plot import LeaveTheHair
+from plot import Transition2
+from plot import LayBackToBed1
+from plot import LockTheDoor
+from plot import TakeTheBlackHair
+from plot import LayBackToBed2
+from plot import JumpDownTheWindow
 
-# print out the module
-# print("Here is the map of the house: ")
-# view_map = ViewMap()
-# view_map.print_house()
-
-# a blanc line to separate the two parts
-
-# character.print_character()
-
-# leave a blanc line to separate the parts
-# print("\n")
-
-# print out the item you have
-# phone = Phone()
-# print(f"You have your {phone} to start with!")
-
-# leave a blanc line to separate the parts
-# print("\n")
-
-# the choice of directions you have
-
-# directions = ['flip through the window to next door',
-#              'jump down the window',
-#              'head straight downstairs']
 
 # Instructions to follow
 
-prompt = "\nEnter a number in front of the directions you want to go: "
-prompt += "\n(Enter 0 when you are stopping.)"
+prompt = "\nEnter a number in front of the directions: "
+prompt += "\n(Enter 0 when you want to quit game.)"
+
+# the choice of directions you have
+directions = ['Start Game',
+              'Map',
+              'Character']
+
+directions2 = ['search for wifi',
+               'watch YouTube']
+
+directions3 = ['turn on low battery mode to save battery',
+               'turn off the phone to save battery']
+
+directions4 = ['leave the hair',
+               'take the black hair with you']
+
+directions5 = ['lay back to bed',
+               'lock the door']
+
+directions6 = ['flip through the window to next door',
+               'jump down the window']
 
 
 def actions():
@@ -48,6 +56,179 @@ def actions():
     for direction in directions:
         print(f"{directions.index(direction)+1}. {direction}")
 
+
+def actions2():
+    """loop out the choise from dictionary with its index"""
+    for direction in directions2:
+        print(f"\n{directions2.index(direction)+1}. {direction}")
+
+
+def actions3():
+    """loop out the choise from dictionary with its index"""
+    for direction in directions3:
+        print(f"\n{directions3.index(direction)+1}. {direction}")
+
+
+def actions4():
+    """loop out the choise from dictionary with its index"""
+    for direction in directions4:
+        print(f"\n{directions4.index(direction)+1}. {direction}")
+
+
+def actions5():
+    """loop out the choise from dictionary with its index"""
+    for direction in directions5:
+        print(f"\n{directions5.index(direction)+1}. {direction}")
+
+
+def actions6():
+    """loop out the choise from dictionary with its index"""
+    for direction in directions6:
+        print(f"\n{directions6.index(direction)+1}. {direction}")
+
+
+def choice():
+    """the very last exception handling"""
+    try:
+        plot5 = int(input(f" "))
+    except ValueError:
+        print("The input is not a number, please try agian!\n")
+    else:
+        if plot5 == 0:
+            break
+        elif plot5 == 1:
+            print("\nto be continued...")
+        elif plot5 == 2:
+            jump = JumpDownTheWindow()
+            print(f"\n{jump}")
+            print("\nEnd 4-You died (Found by the dog)")
+            break
+        else:
+            print("\nThis number is INVALID. Please choose another number.\n")
+
+
+def choice1():
+    """the second last exception handling"""
+    try:
+        plot4 = int(input(f" "))
+    except ValueError:
+        print("The input is not a number, please try agian!\n")
+    else:
+        if plot4 == 0:
+            break
+        elif plot4 == 1:
+            lay_2 = LayBackToBed2()
+            print(f"\n{lay_2}")
+            print("\nEnd 3-You died(You pretended asleep after you took "
+                  "something? Wake up!)")
+            break
+        elif plot4 == 2:
+            lock_door = LockTheDoor()
+            print(f"\n{lock_door}")
+            actions6()
+            choice()
+        else:
+            print("\nThis number is INVALID. Please choose another number.\n")
+
+
+def choice2():
+    """the third last exception handling"""
+    try:
+        plot3 = int(input(f" "))
+    except ValueError:
+        print("The input is not a number, please try agian!\n")
+    else:
+        if plot3 == 0:
+            break
+        elif plot3 == 1:
+            lay_1 = LayBackToBed1()
+            print(f"\n{lay_1}")
+            print("\nEnd 2-Is it a dream?")
+            break
+        elif plot3 == 2:
+            lock_door = LockTheDoor()
+            print(f"\n{lock_door}")
+            actions6()
+            choice()
+        else:
+            print("\nThis number is INVALID. Please choose another number.\n")
+
+
+def choice3():
+    """the third exception handling"""
+    try:
+        plot2 = int(input(f" "))
+    except ValueError:
+        print("The input is not a number, please try agian!\n")
+    else:
+        if plot2 == 0:
+            break
+        elif plot2 == 1:
+            leave_the_hair = LeaveTheHair()
+            print(f"\n{leave_the_hair}")
+            transition_2 = Transition2()
+            print(f"\n{transition_2}")
+            actions5()
+            choice2()
+        elif plot2 == 2:
+            take_hair = TakeTheBlackHair()
+            print(f"\n{take_hair}")
+            transition_2 = Transition2()
+            print(f"\n{transition_2}")
+            actions5()
+            choice1()
+        else:
+            print("\nThis number is INVALID. Please choose another number.\n")
+
+
+def choice4():
+    """the second exception handling"""
+    try:
+        plot = int(input(f" "))
+    except ValueError:
+        print("The input is not a number, please try agian!\n")
+    else:
+        if plot == 0:
+            break
+        elif plot == 1:
+            low_battery = TurnOnLowBatteryMode()
+            print(f"\n{low_battery}")
+            transition_1 = Transition1()
+            print(f"\n{transition_1}")
+            actions4()
+            choice3()
+        elif plot == 2:
+            turn_off = TurnOffThePhone()
+            print(f"\n{turn_off}")
+            transition_1 = Transition1()
+            print(f"\n{transition_1}")
+            actions4()
+            choice3()
+        else:
+            print("\nThis number is INVALID. Please choose another number.\n")
+
+
+def choice5():
+    """the first exception handling"""
+    try:
+        start = int(input(f" "))
+    except ValueError:
+        print("The input is not a number, please try agian!\n")
+    else:
+        if start == 0:
+            break
+        elif start == 1:
+            search_ForWiFi = SearchForWiFi()
+            print(f"\n{search_ForWiFi}")
+            actions3()
+            choice4()
+        elif start == 2:
+            watch_youtube = WatchYoutube()
+            print(f"\n{watch_youtube}")
+            print("\nEnd 1-You died(Sounds too loud!)")
+            break
+        else:
+            print("\nThis number is INVALID. Please choose another number.\n")
 
 # keep looping while the input is not 0. When its 0, the loop quit
 
@@ -61,10 +242,14 @@ while True:
         if name == 0:
             break
         elif name == 1:
-            print(f"\nYou {directions[0]}.\n")
+            starting_plot = StartingPlot()
+            print(starting_plot)
+            actions2()
+            choice5()
         elif name == 2:
-            print(f"\nYou {directions[1]}.\n")
+            view_map = ViewMap()
+            view_map.print_house()
         elif name == 3:
-            print(f"\nYou {directions[2]}.\n")
+            character.print_character()
         else:
             print("\nThis number is INVALID. Please choose another number.\n")
