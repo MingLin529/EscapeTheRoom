@@ -3,14 +3,14 @@ Tasks:
     ✔ Create changelog @done(2019-10-03 09:11) @project(Tasks)
     ✔ Create main game file @done(2019-10-03 09:11) @project(Tasks)
     ✔ Upload files to GitHub @done(2019-10-03 09:11) @project(Tasks)
-    ☐ Update changelog
+    ✔ Update changelog @done(2020-01-13 08:30) @project(Tasks)
 
 
 Game:
     ✔ Think of a name for the game @done(2019-10-07 08:19) @project(Game)
     ✔ Finish pseudocode @done(2019-10-07 08:17) @project(Game)
     ✔ Update pseudocode @done(2020-01-08 08:33) @project(Game)
-    ☐ Adding plot to the game
-    ☐ Adding a start scene
-    ☐ Game continues with inputs
+    ✔ Adding plot to the game @done(2020-01-13 08:30) @project(Game)
+    ✔ Adding a start scene @done(2020-01-13 08:30) @project(Game)
+    ✔ Game continues with inputs @done(2020-01-13 08:30) @project(Game)
     ✔ Using classes to organize plots @done(2020-01-09 08:27) @project(Game)
