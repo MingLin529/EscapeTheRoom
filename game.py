@@ -60,31 +60,31 @@ def actions():
 def actions2():
     """loop out the choise from dictionary with its index"""
     for direction in directions2:
-        print(f"\n{directions2.index(direction)+1}. {direction}")
+        print(f"{directions2.index(direction)+1}. {direction}")
 
 
 def actions3():
     """loop out the choise from dictionary with its index"""
     for direction in directions3:
-        print(f"\n{directions3.index(direction)+1}. {direction}")
+        print(f"{directions3.index(direction)+1}. {direction}")
 
 
 def actions4():
     """loop out the choise from dictionary with its index"""
     for direction in directions4:
-        print(f"\n{directions4.index(direction)+1}. {direction}")
+        print(f"{directions4.index(direction)+1}. {direction}")
 
 
 def actions5():
     """loop out the choise from dictionary with its index"""
     for direction in directions5:
-        print(f"\n{directions5.index(direction)+1}. {direction}")
+        print(f"{directions5.index(direction)+1}. {direction}")
 
 
 def actions6():
     """loop out the choise from dictionary with its index"""
     for direction in directions6:
-        print(f"\n{directions6.index(direction)+1}. {direction}")
+        print(f"{directions6.index(direction)+1}. {direction}")
 
 
 def choice():
