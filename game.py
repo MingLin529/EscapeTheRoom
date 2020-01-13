@@ -101,7 +101,7 @@ def choice():
             if plot5 == 0:
                 choice6()  # return to start scene
             elif plot5 == 1:
-                print("\nto be continued...")
+                print("\nTo Be Continued...")
             elif plot5 == 2:
                 jump = JumpDownTheWindow()
                 print(f"\n{jump}")
@@ -130,7 +130,7 @@ def choice1():
                 choice6()  # return to start scene
             elif plot4 == 2:
                 lock_door = LockTheDoor()
-                print(f"\n{lock_door}")
+                print(f"\n{lock_door}\n")
                 actions6()
                 choice()
             else:
@@ -155,7 +155,7 @@ def choice2():
                 choice6()  # return to start scene
             elif plot3 == 2:
                 lock_door = LockTheDoor()
-                print(f"\n{lock_door}")
+                print(f"\n{lock_door}\n")
                 actions6()
                 choice()
             else:
@@ -177,14 +177,14 @@ def choice3():
                 leave_the_hair = LeaveTheHair()
                 print(f"\n{leave_the_hair}")
                 transition_2 = Transition2()
-                print(f"\n{transition_2}")
+                print(f"\n{transition_2}\n")
                 actions5()
                 choice2()
             elif plot2 == 2:
                 take_hair = TakeTheBlackHair()
                 print(f"\n{take_hair}")
                 transition_2 = Transition2()
-                print(f"\n{transition_2}")
+                print(f"\n{transition_2}\n")
                 actions5()
                 choice1()
             else:
@@ -206,14 +206,14 @@ def choice4():
                 low_battery = TurnOnLowBatteryMode()
                 print(f"\n{low_battery}")
                 transition_1 = Transition1()
-                print(f"\n{transition_1}")
+                print(f"\n{transition_1}\n")
                 actions4()
                 choice3()
             elif plot == 2:
                 turn_off = TurnOffThePhone()
                 print(f"\n{turn_off}")
                 transition_1 = Transition1()
-                print(f"\n{transition_1}")
+                print(f"\n{transition_1}\n")
                 actions4()
                 choice3()
             else:
@@ -233,7 +233,7 @@ def choice5():
                 choice6()  # return to start scene
             elif start == 1:
                 search_ForWiFi = SearchForWiFi()
-                print(f"\n{search_ForWiFi}")
+                print(f"\n{search_ForWiFi}\n")
                 actions3()
                 choice4()
             elif start == 2:
@@ -244,6 +244,7 @@ def choice5():
             else:
                 print("\nThis number is INVALID. Please choose another "
                       "number.\n")
+
 
 # keep looping while the input is not 0. When its 0, the loop quit
 def choice6():
@@ -259,7 +260,7 @@ def choice6():
                 break
             elif name == 1:
                 starting_plot = StartingPlot()
-                print(starting_plot)
+                print(f"\n{starting_plot}\n")
                 actions2()
                 choice5()
             elif name == 2:
