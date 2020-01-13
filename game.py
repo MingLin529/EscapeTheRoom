@@ -263,7 +263,9 @@ def choice6():
                 view_map = ViewMap()
                 view_map.print_house()
             elif name == 3:
+                print("\n")
                 character.print_character()
+                print("\n")
             else:
                 print("\nThis number is INVALID. Please choose another "
                       "number.\n")
