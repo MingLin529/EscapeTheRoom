@@ -177,14 +177,14 @@ def choice3():
                 leave_the_hair = LeaveTheHair()
                 print(f"\n{leave_the_hair}")
                 transition_2 = Transition2()
-                print(f"\n{transition_2}\n")
+                print(f"{transition_2}\n")
                 actions5()
                 choice2()
             elif plot2 == 2:
                 take_hair = TakeTheBlackHair()
                 print(f"\n{take_hair}")
                 transition_2 = Transition2()
-                print(f"\n{transition_2}\n")
+                print(f"{transition_2}\n")
                 actions5()
                 choice1()
             else:
@@ -206,14 +206,14 @@ def choice4():
                 low_battery = TurnOnLowBatteryMode()
                 print(f"\n{low_battery}")
                 transition_1 = Transition1()
-                print(f"\n{transition_1}\n")
+                print(f"{transition_1}\n")
                 actions4()
                 choice3()
             elif plot == 2:
                 turn_off = TurnOffThePhone()
                 print(f"\n{turn_off}")
                 transition_1 = Transition1()
-                print(f"\n{transition_1}\n")
+                print(f"{transition_1}\n")
                 actions4()
                 choice3()
             else:
