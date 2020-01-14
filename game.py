@@ -99,6 +99,7 @@ def choice():
             print("The input is not a number, please try agian!\n")
         else:
             if plot5 == 0:
+                print("\n")
                 choice6()  # return to start scene
             elif plot5 == 1:
                 print("\nTo Be Continued...")
@@ -121,6 +122,7 @@ def choice1():
             print("The input is not a number, please try agian!\n")
         else:
             if plot4 == 0:
+                print("\n")
                 choice6()  # return to start scene
             elif plot4 == 1:
                 lay_2 = LayBackToBed2()
@@ -147,6 +149,7 @@ def choice2():
             print("The input is not a number, please try agian!\n")
         else:
             if plot3 == 0:
+                print("\n")
                 choice6()  # return to start scene
             elif plot3 == 1:
                 lay_1 = LayBackToBed1()
@@ -172,6 +175,7 @@ def choice3():
             print("The input is not a number, please try agian!\n")
         else:
             if plot2 == 0:
+                print("\n")
                 choice6()  # return to start scene
             elif plot2 == 1:
                 leave_the_hair = LeaveTheHair()
@@ -201,6 +205,7 @@ def choice4():
             print("The input is not a number, please try agian!\n")
         else:
             if plot == 0:
+                print("\n")
                 choice6()  # return to start scene
             elif plot == 1:
                 low_battery = TurnOnLowBatteryMode()
@@ -230,6 +235,7 @@ def choice5():
             print("The input is not a number, please try agian!\n")
         else:
             if start == 0:
+                print("\n")
                 choice6()  # return to start scene
             elif start == 1:
                 search_ForWiFi = SearchForWiFi()
